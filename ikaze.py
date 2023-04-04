@@ -1,0 +1,2 @@
+import kinyarwanda
+kinyarwanda.kinyarwanda
