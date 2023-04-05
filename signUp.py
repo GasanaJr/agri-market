@@ -51,7 +51,7 @@ def signUp():
     name = input("Enter your Name ")
     email = input("Enter your Email ")
     password = input("Enter your Password ")
-    telephone = input("Enter your telephone number")
+    telephone = input("Enter your telephone number ")
     profession = int(input('''
         Enter your proffession 
         1. Seller

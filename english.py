@@ -10,10 +10,12 @@ import Maize
 import Banana
 import crop3_list
 import crop3
+
+
 def english():
     farmer.farmers()
     farmer_choice = int(input("Enter choice of Farmer: "))
-    if (farmer_choice == 1) :
+    if (farmer_choice == 1):
         crops.large()
         crop_choice = int(input("Enter choice of crop: "))
         if (crop_choice == 1):
@@ -42,9 +44,3 @@ def english():
             crop3.cassava()
         elif (crop_choice == 3):
             crop3.greens()
-
-
-
-        
-
-
